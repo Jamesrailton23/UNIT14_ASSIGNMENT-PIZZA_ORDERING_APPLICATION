@@ -13,7 +13,7 @@
                 Select a Pizza
             </h1>
             <hr />
-            <h2>Custom</h2>
+            <h2>Custom Pizza</h2>
             <br />
             <br />
             <asp:ImageButton ID="ImageButton1" runat="server" Height="94px" OnClick="ImageButton1_Click" Width="193px" />

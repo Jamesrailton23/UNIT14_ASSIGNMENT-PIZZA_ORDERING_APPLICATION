@@ -37,7 +37,7 @@
                 <asp:Image ID="Image2" runat="server" Height="71px" Width="146px" />
         </p>
         <p>
-            <asp:RadioButtonList ID="RadioButtonList2" runat="server" RepeatDirection="Horizontal">
+            <asp:RadioButtonList ID="RBL_cheese_type" runat="server" RepeatDirection="Horizontal">
                 <asp:ListItem>Mozzarella</asp:ListItem>
                 <asp:ListItem>Chedder</asp:ListItem>
                 <asp:ListItem>American</asp:ListItem>
@@ -49,10 +49,28 @@
         
         &nbsp;<asp:Image ID="Image3" runat="server" Height="71px" Width="146px" />
         <br />
-
-            
-
-
+&nbsp;<asp:RadioButtonList ID="RadioButtonList2" runat="server" RepeatDirection="Horizontal">
+            <asp:ListItem>Gluten Free</asp:ListItem>
+            <asp:ListItem>Normal</asp:ListItem>
+        </asp:RadioButtonList>
+        <br />
+        <hr />
+        <br />
+         <h3>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Crust Type
+        </h3>
+        <p>
+            <asp:Image ID="Image4" runat="server" Height="71px" Width="146px" />
+        </p>
+        <p>
+            <asp:RadioButtonList ID="RadioButtonList3" runat="server" RepeatDirection="Horizontal">
+                <asp:ListItem>Stuffed Crust</asp:ListItem>
+                <asp:ListItem>Normal Crust</asp:ListItem>
+                <asp:ListItem>Deep Dish</asp:ListItem>
+            </asp:RadioButtonList>
+        </p>
+        <p>
+            &nbsp;</p>
     </form>
 </body>
 </html>

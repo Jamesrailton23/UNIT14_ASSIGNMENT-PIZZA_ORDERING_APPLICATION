@@ -13,12 +13,11 @@
                 <h1>
                     Big Sal's Pizza
                 </h1>
-                &nbsp;
                 <h3>
                     The best pizza this side of the atlantic
                 </h3>
-                <p>
-                    &nbsp;</p>
+           
+                <hr />
                 <br />
                 <br />  
                 <br />  
