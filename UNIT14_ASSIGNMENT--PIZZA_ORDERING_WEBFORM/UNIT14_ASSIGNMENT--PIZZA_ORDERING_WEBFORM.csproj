@@ -71,12 +71,20 @@
     <Content Include="App_Data\Pizza_order_system_database_log.ldf">
       <DependentUpon>Pizza_order_system_database.mdf</DependentUpon>
     </Content>
+    <Content Include="custom_order_page_main.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="New_order_page.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="custom_order_page_main.aspx.cs">
+      <DependentUpon>custom_order_page_main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="custom_order_page_main.aspx.designer.cs">
+      <DependentUpon>custom_order_page_main.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

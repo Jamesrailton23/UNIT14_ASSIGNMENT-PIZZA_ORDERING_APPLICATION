@@ -19,9 +19,14 @@
                 </h3>
                 <p>
                     &nbsp;</p>
-                <p>
-                    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
-                </p>
+                <br />
+                <br />  
+                <br />  
+                <asp:Button ID="button_login" runat="server" OnClick="Button1_Click" Text="Login" />
+&nbsp;<asp:Button ID="button_create_account" runat="server" Text="Create Account" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Button ID="button_employee_login" runat="server" Text="Employee Login" />
+                <br />  
             </center>
         </div>
     </form>

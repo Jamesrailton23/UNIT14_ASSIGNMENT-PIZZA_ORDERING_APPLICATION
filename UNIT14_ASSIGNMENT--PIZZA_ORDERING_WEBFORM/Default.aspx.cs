@@ -14,9 +14,6 @@ namespace UNIT14_ASSIGNMENT__PIZZA_ORDERING_WEBFORM
 
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
-        {
-            
-        }
+       
     }
 }
